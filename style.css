@@ -1,0 +1,130 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 37vw bottom 44vh , left 37vw top 36vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+}
+footer {
+    margin: 10px;
+    position: relative;
+}
+
+main {
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/**.top {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}**/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.text #vic{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+hr {
+    background-color: grey;
+    padding: 0;
+    overflow: visible;
+    height: 0.01rem;
+    width: 100%;
+}
+
+.text img {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin: 20px;
+    position: absolute;
+    bottom: 45%;
+}
+.text h1 span {
+    color: hsl(227, 10%, 46%);
+}
+ 
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.social p, h1 {
+    margin: 0;
+}
+
+.social p {
+    font-size: 0.7rem;
+}
